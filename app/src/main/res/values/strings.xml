@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitQuiz</string>
+    <string name="home">Inicio</string>
+    <string name="stats">Estadísticas</string>
+    <string name="quiz">Quiz</string>
+    <string name="challenge">Reto</string>
+    <string name="progress">Progreso</string>
+    <string name="achievements">Logros</string>
+    
+    <!-- Login -->
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="login_hint">Usa usuario: user y contraseña: 123</string>
+    <string name="empty_fields">Por favor completa todos los campos</string>
+    <string name="invalid_credentials">Usuario o contraseña incorrectos</string>
+    
+    <!-- Settings -->
+    <string name="settings">Configuración</string>
+    <string name="change_language">Cambiar Idioma</string>
+    <string name="music">Música</string>
+    <string name="logout">Cerrar Sesión</string>
+    
+    <!-- Challenge -->
+    <string name="start_challenge">Comenzar Reto</string>
+    <string name="complete_rep">Completar Repetición</string>
+    <string name="hold_position">Mantener Posición</string>
+    <string name="finish_challenge">Finalizar Reto</string>
+    <string name="challenge_completed">¡Reto Completado!</string>
+    <string name="good_try">¡Buen Intento!</string>
+    <string name="finish">Finalizar</string>
+    <string name="watch_tutorial_video">Ver Video Tutorial</string>
+    <string name="instructions">Instrucciones</string>
+    <string name="target_reps">Objetivo: %1$d repeticiones</string>
+    <string name="target_seconds">Objetivo: %1$d segundos</string>
+    <string name="completed">Completado: %1$d</string>
+    <string name="time_remaining">Tiempo restante: %1$d segundos</string>
+    <string name="time_completed">¡Tiempo completado!</string>
+    <string name="potential_points">Puntos potenciales: %1$d puntos</string>
+    <string name="earned_points">Puntos ganados: %1$d de %2$d</string>
+    <string name="points_earned">¡Ganaste %1$d puntos!</string>
+    <string name="excellent_completed">¡Excelente! Completaste %1$d %2$s</string>
+    <string name="completed_of">Completaste %1$d de %2$d. ¡Sigue así!</string>
+    <string name="seconds">segundos</string>
+    <string name="repetitions">repeticiones</string>
+    <string name="share">Compartir</string>
+    <string name="share_via">Compartir vía</string>
+    <string name="share_success">¡He completado el reto de %1$s en FitQuiz y he ganado %2$d puntos! 💪</string>
+    <string name="share_try">He completado %1$d de %2$d en el reto de %3$s en FitQuiz y he ganado %4$d puntos. ¡Seguiré intentándolo! 💪</string>
+    <string name="challenge_error">Error al cargar el reto: </string>
+    
+    <!-- Exercise Names -->
+    <string name="squats">Sentadillas</string>
+    <string name="pushups">Flexiones</string>
+    <string name="plank">Plancha</string>
+    <string name="jumping_jacks">Saltos de tijera</string>
+    <string name="burpees">Burpees</string>
+    <string name="crunches">Abdominales</string>
+    
+    <!-- Exercise Descriptions -->
+    <string name="strengthen_legs">Fortalece piernas y glúteos</string>
+    
+    <!-- Welcome -->
+    <string name="welcome_back">¡Bienvenido de nuevo, %1$s!</string>
+    
+    <!-- Achievements -->
+    <string name="level_format">Nivel %1$d</string>
+    <string name="experience_format">Experiencia: %1$d de %2$d</string>
+    <string name="quiz_beginner">Quiz Principiante</string>
+    <string name="quiz_master">Quiz Maestro</string>
+    <string name="challenge_beginner">Reto Principiante</string>
+    <string name="challenge_master">Reto Maestro</string>
+    <string name="streak_beginner">Racha Principiante</string>
+    <string name="streak_master">Racha Maestro</string>
+    <string name="complete_5_quizzes">Completa 5 quizzes</string>
+    <string name="complete_20_quizzes">Completa 20 quizzes</string>
+    <string name="complete_5_challenges">Completa 5 retos</string>
+    <string name="complete_20_challenges">Completa 20 retos</string>
+    <string name="maintain_3_day_streak">Mantén una racha de 3 días</string>
+    <string name="maintain_7_day_streak">Mantén una racha de 7 días</string>
+
+    <!-- Additional strings for layouts -->
+    <string name="target_15_reps">Objetivo: 15 repeticiones</string>
+    <string name="completed_0">Completado: 0</string>
+    <string name="time_remaining_30">Tiempo restante: 30 segundos</string>
+    <string name="potential_points_30">Puntos potenciales: 30 puntos</string>
+    <string name="points_earned_30">¡Ganaste 30 puntos!</string>
+    <string name="excellent_completed_15_reps">¡Excelente! Completaste 15 repeticiones</string>
+    <string name="welcome_back_user">¡Bienvenido de nuevo, user!</string>
+    <string name="level_1">Nivel 1</string>
+    <string name="experience_50_100">Experiencia: 50/100</string>
+</resources>

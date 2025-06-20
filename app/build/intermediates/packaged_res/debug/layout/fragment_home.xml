@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/welcome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Buenos días!"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_color" />
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/streak_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Racha: 0 días"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/success_color"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <!-- Daily Progress -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progreso de Hoy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="12dp" />
+
+            <ProgressBar
+                android:id="@+id/daily_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:max="100"
+                android:progress="0"
+                android:progressTint="@color/primary_color"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progreso diario: 0%"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <!-- Motivation Animation -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/motivation_animation"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividades de Hoy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/quiz_button"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Quiz Diario"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/primary_color"
+                android:layout_marginBottom="12dp"
+                android:drawableLeft="@drawable/ic_quiz"
+                android:drawablePadding="12dp" />
+
+            <Button
+                android:id="@+id/challenge_button"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Reto Físico"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/success_color"
+                android:layout_marginBottom="12dp"
+                android:drawableLeft="@drawable/ic_fitness"
+                android:drawablePadding="12dp" />
+
+            <Button
+                android:id="@+id/progress_button"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Ver Progreso"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/accent_color"
+                android:drawableLeft="@drawable/ic_chart"
+                android:drawablePadding="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

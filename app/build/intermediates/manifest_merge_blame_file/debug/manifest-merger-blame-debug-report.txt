@@ -1,0 +1,191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fitquiz"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\johan\.gradle\caches\8.12\transforms\07e75e0a705b1dc588bf475ef30dcfa5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.fitquiz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\johan\.gradle\caches\8.12\transforms\07e75e0a705b1dc588bf475ef30dcfa5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\johan\.gradle\caches\8.12\transforms\07e75e0a705b1dc588bf475ef30dcfa5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.fitquiz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\johan\.gradle\caches\8.12\transforms\07e75e0a705b1dc588bf475ef30dcfa5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\johan\.gradle\caches\8.12\transforms\07e75e0a705b1dc588bf475ef30dcfa5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:8:5-57:19
+21        android:allowBackup="true"
+21-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\johan\.gradle\caches\8.12\transforms\07e75e0a705b1dc588bf475ef30dcfa5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:10:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:11:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:12:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:13:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.FitQuiz" >
+30-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:14:9-45
+31
+32        <!-- Login Activity como punto de entrada -->
+33        <activity
+33-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:18:9-26:20
+34            android:name="com.example.fitquiz.LoginActivity"
+34-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:19:13-61
+35            android:exported="true"
+35-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:20:13-36
+36            android:theme="@style/Theme.FitQuiz.NoActionBar" >
+36-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:21:13-61
+37            <intent-filter>
+37-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:22:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:23:17-69
+38-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:24:17-77
+40-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <!-- Splash Activity -->
+45        <activity
+45-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:29:9-32:59
+46            android:name="com.example.fitquiz.SplashActivity"
+46-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:30:13-62
+47            android:exported="false"
+47-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:31:13-37
+48            android:theme="@style/Theme.FitQuiz.Splash" />
+48-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:32:13-56
+49
+50        <!-- Actividades principales de FitQuiz -->
+51        <activity
+51-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:35:9-37:40
+52            android:name="com.example.fitquiz.MainActivity"
+52-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:36:13-60
+53            android:exported="false" />
+53-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:37:13-37
+54        <activity
+54-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.example.fitquiz.QuizActivity"
+55-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:40:13-60
+56            android:exported="false" />
+56-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:43:9-45:40
+58            android:name="com.example.fitquiz.ChallengeActivity"
+58-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:44:13-65
+59            android:exported="false" />
+59-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:45:13-37
+60        <activity
+60-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:47:9-49:40
+61            android:name="com.example.fitquiz.ProgressActivity"
+61-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:48:13-64
+62            android:exported="false" />
+62-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:49:13-37
+63
+64        <!-- Servicio de música -->
+65        <service
+65-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:52:9-55:40
+66            android:name="com.example.fitquiz.MusicService"
+66-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:53:13-60
+67            android:enabled="true"
+67-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:54:13-35
+68            android:exported="false" />
+68-->C:\Users\johan\Downloads\fitquizv15\app\src\main\AndroidManifest.xml:55:13-37
+69        <service
+69-->[androidx.room:room-runtime:2.5.0] C:\Users\johan\.gradle\caches\8.12\transforms\dd0ded6a53bf082209908c498ed1a9e4\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+70            android:name="androidx.room.MultiInstanceInvalidationService"
+70-->[androidx.room:room-runtime:2.5.0] C:\Users\johan\.gradle\caches\8.12\transforms\dd0ded6a53bf082209908c498ed1a9e4\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+71            android:directBootAware="true"
+71-->[androidx.room:room-runtime:2.5.0] C:\Users\johan\.gradle\caches\8.12\transforms\dd0ded6a53bf082209908c498ed1a9e4\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+72            android:exported="false" />
+72-->[androidx.room:room-runtime:2.5.0] C:\Users\johan\.gradle\caches\8.12\transforms\dd0ded6a53bf082209908c498ed1a9e4\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\johan\.gradle\caches\8.12\transforms\be942dd44f608c746aff5ea5224856fa\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\johan\.gradle\caches\8.12\transforms\be942dd44f608c746aff5ea5224856fa\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+76            android:authorities="com.example.fitquiz.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\johan\.gradle\caches\8.12\transforms\be942dd44f608c746aff5ea5224856fa\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\johan\.gradle\caches\8.12\transforms\be942dd44f608c746aff5ea5224856fa\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\johan\.gradle\caches\8.12\transforms\be942dd44f608c746aff5ea5224856fa\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\johan\.gradle\caches\8.12\transforms\be942dd44f608c746aff5ea5224856fa\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\johan\.gradle\caches\8.12\transforms\be942dd44f608c746aff5ea5224856fa\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\johan\.gradle\caches\8.12\transforms\289acb454c1c88046b2c2c7f78540e8a\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\johan\.gradle\caches\8.12\transforms\289acb454c1c88046b2c2c7f78540e8a\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\johan\.gradle\caches\8.12\transforms\289acb454c1c88046b2c2c7f78540e8a\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+86                android:value="androidx.startup" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+87        </provider>
+88
+89        <receiver
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+90            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+91            android:directBootAware="false"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+92            android:enabled="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+93            android:exported="true"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+94            android:permission="android.permission.DUMP" >
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+96                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+99                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+102                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+105                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\johan\.gradle\caches\8.12\transforms\787ccc09c46975528ef23cc35b6f34cd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+106            </intent-filter>
+107        </receiver>
+108    </application>
+109
+110</manifest>

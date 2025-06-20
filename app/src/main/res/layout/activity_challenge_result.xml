@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f5f5f5"
+    android:padding="32dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/result_animation"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/result_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/challenge_completed"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_color"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/result_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/excellent_completed_15_reps"
+        android:textSize="18sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/points_earned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/points_earned_30"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_color"
+        android:layout_marginBottom="32dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/done_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="@string/finish"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/primary_color"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/share_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="@string/share"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/accent_color"
+            android:layout_marginStart="8dp"
+            android:drawableStart="@drawable/ic_share"
+            android:paddingStart="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
